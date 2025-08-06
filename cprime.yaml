@@ -1,0 +1,16 @@
+config_schema:
+    type: object
+    required: []
+    properties: {}
+server_name: biomcp
+description: BioMCP is an open source toolkit that empowers AI assistants and agents with specialized biomedical knowledge. Built following the Model Context Protocol (MCP), it connects AI systems to authoritative biomedical data sources, enabling them to answer questions about clinical trials, scientific literature, and genomic variants with precision and depth
+license: MIT
+owner: Ian Maurer <imaurer@gmail.com>
+package: biomcp
+command: uvx
+args:
+    - -with
+    - biomcp-python
+    - biomcp
+    - run
+env: []
